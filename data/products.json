@@ -1,0 +1,147 @@
+{
+  "$comment": "Single source of truth for the catalogue. Prices are data, not code: edit them here (or replace this file with an admin/CMS feed) and every page, cart and checkout picks them up. `pricesArePlaceholders` marks the launch pricing as unconfirmed — set it to false once the owner approves final prices.",
+  "currency": "NGN",
+  "pricesArePlaceholders": true,
+  "sizes": [
+    {
+      "id": "mini",
+      "name": "Mini",
+      "serves": "1–2 people",
+      "weight": "450g",
+      "note": "A little loaf for one or two."
+    },
+    {
+      "id": "midi",
+      "name": "Midi",
+      "serves": "3–5 people",
+      "weight": "750g",
+      "note": "The everyday favourite."
+    },
+    {
+      "id": "regular",
+      "name": "Regular",
+      "serves": "6–8 people",
+      "weight": "1.1kg",
+      "note": "Made for sharing."
+    }
+  ],
+  "products": [
+    {
+      "id": "classic",
+      "slug": "classic-banana-bread",
+      "name": "Classic Banana Bread",
+      "tagline": "The one that started it all.",
+      "description": "Deeply caramelised bananas, a soft golden crumb and a crackly top — baked the way banana bread should be. Simple, warm and impossible to stop at one slice.",
+      "prices": { "mini": 6500, "midi": 9500, "regular": 13500 },
+      "ingredients": "Ripe bananas, wheat flour, brown sugar, free-range eggs, butter, vanilla, sea salt",
+      "allergens": "Gluten, eggs, dairy",
+      "badges": [],
+      "image": "/images/products/classic.webp",
+      "available": true
+    },
+    {
+      "id": "red-velvet",
+      "slug": "red-velvet-banana-bread",
+      "name": "Red Velvet Banana Bread",
+      "tagline": "Our most-loved bake.",
+      "description": "Velvety cocoa crumb with a gentle banana sweetness and a cream-cheese ripple. Rich, ruby-red and made to be the centrepiece of the table.",
+      "prices": { "mini": 7500, "midi": 10500, "regular": 14500 },
+      "ingredients": "Ripe bananas, wheat flour, cocoa, buttermilk, cream cheese, beetroot, sugar, eggs, butter",
+      "allergens": "Gluten, eggs, dairy",
+      "badges": ["Bestseller"],
+      "image": "/images/products/red-velvet.webp",
+      "available": true
+    },
+    {
+      "id": "oreo",
+      "slug": "oreo-banana-bread",
+      "name": "Oreo Banana Bread",
+      "tagline": "Cookie crumb, banana soft.",
+      "description": "Our classic loaf folded with crushed Oreo cookies and finished with a vanilla glaze. The kind of bake that disappears before it cools.",
+      "prices": { "mini": 7000, "midi": 10000, "regular": 14000 },
+      "ingredients": "Ripe bananas, wheat flour, Oreo cookies, sugar, eggs, butter, vanilla, milk",
+      "allergens": "Gluten, eggs, dairy, soy",
+      "badges": [],
+      "image": "/images/products/oreo.webp",
+      "available": true
+    },
+    {
+      "id": "chocolate-chunk",
+      "slug": "chocolate-chunk-banana-bread",
+      "name": "Chocolate Chunk Banana Bread",
+      "tagline": "Pools of dark chocolate.",
+      "description": "A tender banana crumb studded with generous dark chocolate chunks that melt into pockets as it bakes. Best served slightly warm.",
+      "prices": { "mini": 8000, "midi": 11000, "regular": 15000 },
+      "ingredients": "Ripe bananas, wheat flour, dark chocolate (70%), sugar, eggs, butter, cocoa, vanilla",
+      "allergens": "Gluten, eggs, dairy, soy",
+      "badges": [],
+      "image": "/images/products/chocolate-chunk.webp",
+      "available": true
+    },
+    {
+      "id": "chocolate-chip",
+      "slug": "chocolate-chip-banana-bread",
+      "name": "Chocolate Chip Banana Bread",
+      "tagline": "A chip in every bite.",
+      "description": "Our classic banana crumb folded through with small chocolate chips that keep their shape as they bake. Soft, sweet and familiar — banana bread with a little extra chocolate.",
+      "prices": { "mini": 7000, "midi": 10000, "regular": 14000 },
+      "ingredients": "Ripe bananas, wheat flour, chocolate chips, sugar, eggs, butter, vanilla",
+      "allergens": "Gluten, eggs, dairy, soy",
+      "badges": [],
+      "image": "/images/products/chocolate-chip.webp",
+      "available": true
+    },
+    {
+      "id": "nutella",
+      "slug": "nutella-banana-bread",
+      "name": "Nutella Banana Bread",
+      "tagline": "Hazelnut swirl, every slice.",
+      "description": "Banana bread marbled with hazelnut cocoa spread and topped with toasted hazelnuts. Sweet, nutty and unapologetically indulgent.",
+      "prices": { "mini": 7500, "midi": 10500, "regular": 14500 },
+      "ingredients": "Ripe bananas, wheat flour, hazelnut cocoa spread, sugar, eggs, butter, hazelnuts, vanilla",
+      "allergens": "Gluten, eggs, dairy, hazelnuts, soy",
+      "badges": [],
+      "image": "/images/products/nutella.webp",
+      "available": true
+    },
+    {
+      "id": "mixed-nuts",
+      "slug": "mixed-nuts-banana-bread",
+      "name": "Mixed Nuts Banana Bread",
+      "tagline": "Crunch in every slice.",
+      "description": "Toasted almonds, cashews and walnuts scattered over a deep, moist banana crumb. Nutty, textured and just sweet enough.",
+      "prices": { "mini": 8000, "midi": 11000, "regular": 15500 },
+      "ingredients": "Ripe bananas, wheat flour, almonds, cashews, walnuts, sugar, eggs, butter, cinnamon",
+      "allergens": "Gluten, eggs, dairy, tree nuts",
+      "badges": [],
+      "image": "/images/products/mixed-nuts.webp",
+      "available": true
+    },
+    {
+      "id": "coconut",
+      "slug": "coconut-banana-bread",
+      "name": "Coconut Banana Bread",
+      "tagline": "Tropical and tender.",
+      "description": "Coconut milk, desiccated coconut and ripe banana baked into a soft, fragrant loaf. A quiet holiday in every bite.",
+      "prices": { "mini": 6500, "midi": 9500, "regular": 13500 },
+      "ingredients": "Ripe bananas, wheat flour, coconut milk, desiccated coconut, sugar, eggs, butter, vanilla",
+      "allergens": "Gluten, eggs, dairy, coconut",
+      "badges": [],
+      "image": "/images/products/coconut.webp",
+      "available": true
+    },
+    {
+      "id": "baileys",
+      "slug": "baileys-banana-bread",
+      "name": "Baileys Banana Bread",
+      "tagline": "A grown-up treat.",
+      "description": "A generous splash of Baileys Irish Cream folded into banana bread, finished with a cocoa dust. For the adults at the table.",
+      "prices": { "mini": 8000, "midi": 11000, "regular": 15000 },
+      "ingredients": "Ripe bananas, wheat flour, Baileys Irish Cream, cocoa, sugar, eggs, butter, vanilla",
+      "allergens": "Gluten, eggs, dairy, alcohol",
+      "badges": ["18+"],
+      "image": "/images/products/baileys.webp",
+      "available": true
+    }
+  ]
+}

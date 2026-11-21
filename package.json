@@ -1,0 +1,30 @@
+{
+  "name": "dbgfoodboxng",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.5"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "photos": "node scripts/generate-product-photos.mjs"
+  },
+  "dependencies": {
+    "next": "^16.4.6",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "sharp": "^0.35.5",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.8.3"
+  }
+}

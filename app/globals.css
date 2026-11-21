@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Plus+Jakarta+Sans:wght@300..800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  @apply bg-cream font-sans text-cocoa antialiased;
+}
+
+::selection {
+  background: #d9ad75;
+  color: #2b1a12;
+}
+
+.font-display {
+  font-optical-sizing: auto;
+}
+
+/* Shared field styling for the auth + checkout forms. */
+@layer components {
+  .field {
+    @apply w-full rounded-2xl border border-choco/15 bg-white/80 px-4 py-3.5 text-[14.5px] font-medium text-cocoa shadow-[0_1px_2px_rgba(43,26,18,0.04)] outline-none transition placeholder:font-normal placeholder:text-cocoa/50 hover:border-choco/25 focus:border-choco focus:bg-white focus:ring-4 focus:ring-caramel/25;
+  }
+
+  .field-label {
+    @apply mb-1.5 block text-[12px] font-semibold text-choco;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2.5 rounded-full bg-choco px-6 py-3.5 text-[13.5px] font-bold text-cream shadow-[0_1px_2px_rgba(43,26,18,0.14)] transition hover:bg-choco-800 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-caramel/40 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2.5 rounded-full border border-choco/20 bg-white/60 px-6 py-3.5 text-[13.5px] font-bold text-choco transition hover:border-choco/40 hover:bg-white focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-caramel/30 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+
+  .btn-caramel {
+    @apply inline-flex items-center justify-center gap-2.5 rounded-full bg-caramel px-6 py-3.5 text-[13.5px] font-bold text-choco-900 shadow-[0_1px_2px_rgba(43,26,18,0.12)] transition hover:bg-caramel-300 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-cream/40 disabled:cursor-not-allowed disabled:opacity-60;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

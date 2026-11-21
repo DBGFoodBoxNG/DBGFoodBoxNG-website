@@ -1,0 +1,25 @@
+{
+  "$comment": "Delivery zones and fees used by checkout. Fees are totals in NGN and are re-read server-side on every order.",
+  "currency": "NGN",
+  "deliveryNote": "Bakes are made to order. Delivery timing depends on your zone — the ETA for each area is shown below and again at checkout.",
+  "zones": [
+    {
+      "id": "lekki-island",
+      "label": "Lekki, Ikoyi & Lagos Island",
+      "fee": 2500,
+      "eta": "Same day if ordered before 9am"
+    },
+    {
+      "id": "mainland",
+      "label": "Lagos Mainland (Yaba, Surulere, Ikeja)",
+      "fee": 2000,
+      "eta": "Next-day delivery"
+    },
+    {
+      "id": "outskirts",
+      "label": "Ajah, Sangotedo & Ibeju-Lekki",
+      "fee": 3000,
+      "eta": "Next-day delivery"
+    }
+  ]
+}
